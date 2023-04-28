@@ -1,15 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Path from './components/path';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <div>
+        okokkok
+      </div>
+    </div>
+    <div className='flex'>
+      <div className='w-1/2'>ijijijji</div>
+      <div className='w-1/2 p-3'><Path/></div>
+      <div>ijh9oiji</div>
+    </div>
   </React.StrictMode>
 );
 
